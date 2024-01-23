@@ -1,0 +1,61 @@
+.container{  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media (max-width:740) and (min-width:360) {
+        width: 50%;
+    }
+}
+.box{
+   width: 100px;
+   height: 100px;
+   margin: 3px;
+   font-size: 5rem;
+   text-align: center;
+   border-radius: 10px;
+   
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: rgb(27, 142, 142);
+}
+#box3{
+    background-color: aquamarine;
+}
+#box4{
+    background-color: rgb(132, 132, 255);
+}
+#box4{
+    background-color: aqua;
+}
+#box5{
+    background-color: rgb(27, 142, 142);
+}
+#box6{
+    background-color: aquamarine;
+}
+#box7{
+    background-color: aqua;
+}
+#box8{
+    background-color: rgb(27, 142, 142);
+}
+#box9{
+    background-color: aquamarine;
+}
+.one-three{
+    display: flex;
+   
+    justify-content: center;
+}
+.four-six{
+    display: flex;
+   
+    justify-content: center;
+}
+.seven-nine{
+    display: flex;
+   
+    justify-content: center;
+}
